@@ -1,0 +1,21 @@
+{
+  "name": "create-dtable-app",
+  "version": "1.0.0",
+  "description": "A dtable app cli",
+  "main": "readme.js",
+  "bin": {
+    "create-dtable-app": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seatable.com",
+  "license": "ISC",
+  "devDependencies": {
+    "child-process": "1.0.2",
+    "commander": "7.2.0",
+    "inquirer": "8.1.1",
+    "ora": "5.4.1",
+    "rimraf": "3.0.2"
+  }
+}
