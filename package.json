@@ -1,6 +1,6 @@
 {
   "name": "create-dtable-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dtable app cli",
   "main": "readme.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "author": "seatable.com",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "child-process": "1.0.2",
     "commander": "7.2.0",
     "inquirer": "8.1.1",
