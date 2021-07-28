@@ -5,6 +5,7 @@ const process1 = require('child_process');
 const ora = require('ora');
 const rm = require('rimraf').sync
 const execSync = require('child_process').execSync;
+const path = require('path');
 
 const spinner = ora();
 const gitUrl = 'https://github.com/seatable/seatable-app-template.git';
